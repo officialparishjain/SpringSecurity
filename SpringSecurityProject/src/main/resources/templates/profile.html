@@ -7,8 +7,12 @@
 </head>
 <body>
 <h1>Profile Page</h1>
-<section>
-  <h1>Profile Page</h1>
-</section>
+    <section style="display: flex; align-items: center; justify-content: center; height: 90vh; flex-direction: column">
+      <h1 style="font-size: 2.5rem; color: #198754">User Profile Page</h1>
+        <h3 style="font-size: 1.2rem">Name : [[${user.name}]]</h3>
+        <h3 style="font-size: 1.2rem">Mobile No : [[${user.mobile}]]</h3>
+        <h3 style="font-size: 1.2rem">Email : [[${user.email}]]</h3>
+        <h3 style="font-size: 1.2rem">Role : [[${user.role}]]</h3>
+    </section>
 </body>
 </html>
